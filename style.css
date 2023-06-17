@@ -131,7 +131,7 @@ p {
 
 .sau {
     padding: 30px;
-    background: #D9CD25
+    background: #023859
 }
 
 .box-container {
@@ -145,7 +145,7 @@ p {
 .box-container .box {
     height: 11rem;
     width: 17rem;
-    background: #D9CD25;
+    background: #0D1A26;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
@@ -159,7 +159,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #0678BF;
+    background: #D9CD25;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -167,7 +167,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #0678BF;
+    color: #D9CD25;
 
 }
 
