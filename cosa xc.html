@@ -10,7 +10,7 @@
 
 </head>
 <body>
-
+<!--encabezado-->
     <div class="head">
 
         <div class="logo">
@@ -18,7 +18,7 @@
         </div>
 
         <nav class="navbar">
-            <a href="#">Inicio</a>
+            <a href="#inicio">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Conacto</a>
             <a href="#">Productos</a>
@@ -26,22 +26,21 @@
         </nav>
 
     </div>
+<!--inicio-->
+    <section id="inicio">
 
-    <header class="content header">
-        <h2 class="title">Inicio</h2>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Ipsam necessitatibus odio quisquam reprehenderit quas, 
-             obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
-            libero vero quia asperiores similique dicta.
-        </p>
+        <header class="content header">
+            <h2 class="title">Inicio</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Ipsam necessitatibus odio quisquam reprehenderit quas, 
+                obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
+                libero vero quia asperiores similique dicta.
+            </p>
+        </header>
 
-        <div class="btn-home">
-            <a href="#" class="btn">Saber mas</a>
-            <a href="#" class="btn">Saber mas</a>
-        </div>
-    </header>
-
+    </section>
+<!--cuerpo productos-->
     <section class="content sau">
 
         <h2 class="title">Productos</h2>
@@ -72,7 +71,7 @@
         </div>
 
     </section>
-
+<!--nosotros-->
     <section class="content about">
 
         <h2 class="title">Nosotros</h2>
@@ -88,20 +87,21 @@
     </section>
 
     <section class="content price">
+        <div class="container">
+            <h1>Contacto</h1>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
 
-        <article class="contain">
-            <h2 class="title">Precio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Ut soluta similique 
-                quia reprehenderit eligendi aliquam. Sit 
-                odio impedit quibusdam. Velit corporis, 
-                optio debitis quidem ex ipsam rerum dolorem autem sequi.
-            </p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <a href="#" class="btn">Saber precio</a>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required readonly></textarea>
 
-        </article>
-
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </section>
 
     <section class="content contact">

@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #171717;
+    background: #30c4fa;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -57,6 +57,24 @@ body {
     align-items: center;
 
 }
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    }
 
 .header {
     height: 60vh !important;
