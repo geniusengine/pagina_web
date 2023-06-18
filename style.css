@@ -132,11 +132,25 @@ p {
 
 
 .content {
-    height: 75vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contents {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    padding-top: 10px;
+    background: #0D1A26;
+    padding-bottom: 0;
 }
 
 .about {
@@ -201,14 +215,6 @@ p {
     background-size: cover;
     text-align: center;
 }
-
-
-.contact {
-    padding-top: 20px;
-    background: #0D1A26;
-    padding-bottom: 0;
-}
-
 
 @media (max-width: 768px) {
 
