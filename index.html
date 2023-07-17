@@ -12,16 +12,14 @@
 </head>
 <body>
 <!--encabezado-->
-    <div class="head">
-
+    <div class="head">        
         <div class="logo">
-            <a href="#">Logo</a>
+            <img src="img/logo.png" alt="Logo">
         </div>
-
         <nav class="navbar">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Nosotros</a>
-            <a href="#nosotros">Conacto</a>
+            <a href="#nosotros">Contacto</a>
         </nav>
 
     </div>
@@ -63,8 +61,8 @@
             </div>
             <div class="box" data-aos="zoom-in">
                 <i class="fab fa-leanpub"></i>
-                <h3>Visualización de datos</h3>
-                <p>Crea visualizaciones interactivas y atractivas para comunicar tus insights de manera efectiva.</p>
+                <h3>Diseño Y hosting Web</h3>
+                <p>También podemos generar tu propia pagina web y en esta tener incrustado desde un principio el análisis. </p>
             </div>
 
         </div>
@@ -96,11 +94,11 @@
     <section id="contactos" class="content price">
         <div class="box-container">
             <div class="box" data-aos="zoom-in">
-                <form action="https://formsubmit.co/contacto.geniusengine@gmail.com" method="POST">
+                <form action="#" method="post">
                     <h3>Contacto</h3>
 
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="nombre" required>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
@@ -118,7 +116,7 @@
 
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<//script>
+    <script>
         AOS.init()
 
         document.getElementById("contactos").addEventListener("submit", function(event) {
@@ -142,9 +140,7 @@
             // Abre el enlace de correo electrónico
             window.location.href = enlaceCorreo;
           });
-    <//script>
-
-    
+    </script>
 
 </body>
 </html>
