@@ -94,11 +94,11 @@
     <section id="contactos" class="content price">
         <div class="box-container">
             <div class="box" data-aos="zoom-in">
-                <form action="#" method="post">
+                <form action="https://formsubmit.co/contacto@geniusengine.cl" method="POST">
                     <h3>Contacto</h3>
 
                     <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="nombre" required>
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
@@ -116,31 +116,7 @@
 
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init()
 
-        document.getElementById("contactos").addEventListener("submit", function(event) {
-            event.preventDefault(); // Evita el envío del formulario por defecto
-          
-            // Obtiene los valores del formulario
-            var nombre = document.getElementsByName("nombre")[0].value;
-            var email = document.getElementsByName("email")[0].value;
-            var mensaje = document.getElementsByName("mensaje")[0].value;
-          
-            // Crea el cuerpo del mensaje
-            var cuerpoMensaje = "Nombre: " + nombre + "\n";
-            cuerpoMensaje += "Email: " + email + "\n";
-            cuerpoMensaje += "Mensaje: " + mensaje + "\n";
-          
-            // Configura el enlace de correo electrónico
-            var destinatario = "contacto.geniusengine@gmail.com";
-            var asunto = "Nuevo mensaje de contacto";
-            var enlaceCorreo = "mailto:" + destinatario + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpoMensaje);
-          
-            // Abre el enlace de correo electrónico
-            window.location.href = enlaceCorreo;
-          });
-    </script>
 
 </body>
 </html>
