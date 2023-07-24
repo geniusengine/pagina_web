@@ -137,7 +137,7 @@ p {
 
 
 .content {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,6 +213,39 @@ p {
     color: #D9CD25;
 
 }
+
+.box-container .boxs {
+    height: 24rem;
+    width: 17rem;
+    background: #0D1A26;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.swiper-container {
+    width: 80%; /* Ajustar el ancho para que ocupe el espacio deseado */
+    height: 300px; /* Establecer la altura deseada para el carrusel */
+    margin-top: 40px; /* Separar el carrusel del grid */
+    backdrop-filter: blur(5px);
+    padding: 20px; /* Agregar un poco de espacio alrededor del carrusel */
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .swiper-slide img {
+    width: 50%; /* Ajustar el ancho de las imágenes al 100% del carrusel */
+    height: 100%; /* Ajustar el alto de las imágenes al 100% del carrusel */
+    object-fit: cover; /* Ajustar tamaño de la imagen manteniendo la proporción y recortando si es necesario */
+  }
 
 .price {
     background: url(img/cuerpo.png) no-repeat center;
