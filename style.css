@@ -145,7 +145,7 @@ p {
 }
 
 .contents {
-    height: 15vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,7 +154,7 @@ p {
 
 .contact {
     padding-top: 10px;
-    background: #0D1A26;
+    background: #D9CD25;
     padding-bottom: 0;
 }
 
@@ -176,7 +176,7 @@ p {
 }
 
 .box-container .box {
-    height: 11rem;
+    height: 12rem;
     width: 17rem;
     background: #0D1A26;
     text-align: center;
@@ -206,7 +206,7 @@ p {
 
 .box-container .box p {
     padding: 0 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .box-container .box label {
     font-size: 10px;
