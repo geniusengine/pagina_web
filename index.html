@@ -104,8 +104,28 @@
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 1000, // Cambia el tiempo de transición de cada imagen en milisegundos (1000 = 1 segundo)
+             },
+            loop: true, 
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+        function abrirVentana() {
+            var ventanaAncho = 600;
+            var ventanaAlto = 400;
+            var ventanaIzquierda = (screen.width - ventanaAncho) / 2;
+            var ventanaArriba = (screen.height - ventanaAlto) / 2;
+            var opciones = "width=" + ventanaAncho + ",height=" + ventanaAlto + ",left=" + ventanaIzquierda + ",top=" + ventanaArriba;
+
+            window.open("ventana_emergente.html", "MiVentanaEmergente", opciones);
+        }
+         
         AOS.init()
-        
+
     </script>
 
 </body>
