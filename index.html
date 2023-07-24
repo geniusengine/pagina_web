@@ -105,28 +105,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init()
-
-        document.getElementById("contactos").addEventListener("submit", function(event) {
-            event.preventDefault(); // Evita el envío del formulario por defecto
-          
-            // Obtiene los valores del formulario
-            var nombre = document.getElementsByName("nombre")[0].value;
-            var email = document.getElementsByName("email")[0].value;
-            var mensaje = document.getElementsByName("mensaje")[0].value;
-          
-            // Crea el cuerpo del mensaje
-            var cuerpoMensaje = "Nombre: " + nombre + "\n";
-            cuerpoMensaje += "Email: " + email + "\n";
-            cuerpoMensaje += "Mensaje: " + mensaje + "\n";
-          
-            // Configura el enlace de correo electrónico
-            var destinatario = "contacto.geniusengine@gmail.com";
-            var asunto = "Nuevo mensaje de contacto";
-            var enlaceCorreo = "mailto:" + destinatario + "?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpoMensaje);
-          
-            // Abre el enlace de correo electrónico
-            window.location.href = enlaceCorreo;
-          });
+        
     </script>
 
 </body>
