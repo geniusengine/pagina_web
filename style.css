@@ -116,10 +116,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
+    border: 2px solid #A68B03;
+    color: #fff; 
     text-decoration: none;
-    background: #9c27b0;
+    background: #D9CD25;
 }
 
 .btn:hover {
@@ -145,7 +145,7 @@ p {
 }
 
 .contents {
-    height: 10vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
