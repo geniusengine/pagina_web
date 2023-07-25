@@ -1,5 +1,5 @@
 body {
-    background-color: #0D1A26;
+    background-color: #A68B03;
   }
 
   .container {
@@ -41,15 +41,15 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  background: #A68B03;
   }
   
   .box-container .box {
   height: 12rem;
   width: 17rem;
-  background: #0D1A26;
+  background: #A68B03;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
   margin: 2rem;   
   }
 
@@ -78,7 +78,7 @@ body {
   }
   .box-container .box label {
       font-size: 16px;
-      color: #D9CD25;
+      color: #0D1A26;
 
   }
 
