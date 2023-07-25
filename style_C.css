@@ -1,0 +1,96 @@
+body {
+    background-color: #0D1A26;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #A68B03;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  }
+  
+  .box-container .box {
+  height: 12rem;
+  width: 17rem;
+  background: #0D1A26;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+  margin: 2rem;   
+  }
+
+  .box-container .box i {
+      height: 3rem;
+      width: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      border-radius: 50%;
+      color: #fff;
+      background: #D9CD25;
+      font-size: 2rem;
+      margin: 1rem 0;
+
+  }
+
+  .box-container .box h3 {
+      font-size: 20px;
+      color: #D9CD25;
+
+  }
+
+  .box-container .box p {
+      padding: 0 15px;
+      font-size: 14px;
+  }
+  .box-container .box label {
+      font-size: 16px;
+      color: #D9CD25;
+
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .form-group button {
+    margin-top: 10px;
+  }
+
+  #my-form-status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
